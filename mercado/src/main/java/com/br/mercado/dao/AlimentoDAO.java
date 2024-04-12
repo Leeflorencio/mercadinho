@@ -113,44 +113,4 @@ public class AlimentoDAO {
         return produto;
     }
 
-   /* public Alimento atualizar(Long codigo, Alimento alimento) {
-
-        Connection conn = connectionFactory.recuperarConexao();
-        AlimentoDAO produtoDAO = new AlimentoDAO(conn, connectionFactory);
-
-        // Verifica se o produto com o código informado existe no banco de dados
-        Alimento produtoExistente = produtoDAO.buscarProduto(codigo);
-        if (produtoExistente == null) {
-            throw new RuntimeException("O produto com o código " + codigo + " não foi encontrado.");
-        }
-
-        String sql = "UPDATE alimento SET nome = ?, codigo = ?, descricao = ?, preco_custo = ?, " +
-                "qtd_estoque = ? WHERE codigo = ?";
-
-            try {
-                PreparedStatement preparedStatement = conn.prepareStatement(sql);
-
-                preparedStatement.setString(1, alimento.getNome());
-                preparedStatement.setLong(2, alimento.getCodigo());
-                preparedStatement.setString(3, alimento.getDescricao());
-                preparedStatement.setDouble(4, alimento.getPrecoCusto());
-                preparedStatement.setInt(5, alimento.getQuantidadeEstoque());
-                
-                preparedStatement.setLong(6, codigo);
-
-                preparedStatement.executeUpdate();
-                preparedStatement.close();
-
-                Alimento produtoAtualizado = new Alimento(alimento.getNome(), alimento.getCodigo(), alimento.getDescricao(),
-                        alimento.getPrecoCusto(), alimento.getQuantidadeEstoque());
-                //return produtoAtualizado;
-
-                return new AlimentoDAO(conn, connectionFactory).atualizar(codigo, alimento);
-            } catch (SQLException e) {
-                throw new RuntimeException(e);
-            }
-    }
-
-    */
-
 }
