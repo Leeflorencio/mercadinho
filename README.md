@@ -1,10 +1,11 @@
 # Mercadinho
 
 <p align="center">Projeto responsável pelo CRUD de produtos de um mercado.</p>
+<hr>
 
 ### Features
 
-<p align="center">Existem 3 setores: ALimento, Bebidas e Produtos de Limpeza. Cada um com uma classe responsável pelo CRUD</p>
+<p>Existem 3 setores: ALimento, Bebidas e Produtos de Limpeza. Cada um com uma classe responsável pelo CRUD</p>
 
 ### Cadastro de produtos 
 
@@ -17,6 +18,7 @@
 ### Atualizar 
 *Em construção
 
+<hr>
 
 ### 🛠 Tecnologias
 Java 11 - MySQL - JDBC
