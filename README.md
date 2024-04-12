@@ -1,7 +1,7 @@
 # Mercadinho
 
 <p align="center">Projeto responsável pelo CRUD de produtos de um mercado.</p>
-<hr>
+
 
 ### Features
 
