@@ -8,12 +8,12 @@
 <p>Existem 3 setores: ALimento, Bebidas e Produtos de Limpeza. Cada um com uma classe responsável pelo CRUD</p>
 
 ### Cadastro de produtos 
-<p> Recebe as informações sobre o novo produto, verificando se o ele já existe, caso nao exista, cria um novo registro de um produto no banco de dados. Retorna uma resposta de sucesso. Se for invalido: Retorna uma reposta informando que os dados precisam ser válidos.
+<p> Recebe as informações sobre o novo produto, verificando se o ele já existe, caso nao exista, cria um novo registro de um produto no banco de dados. Retorna uma resposta de sucesso. Se já existir: Retorna uma reposta informando que o produto já foi cadastrado.
 </p>
 
 ### Listar produtos
 <p>
-Consulta o banco de dados para obter os detalhes dos produtos e retorna a lista de produtos cadastrados. Se não existir registro: Retorne uma resposta indicando que não foi encontrado.
+Consulta o banco de dados para obter os detalhes dos produtos e retorna a lista de produtos cadastrados. Se não existir registro: Retorna uma resposta indicando que não foi encontrado.
 </p>
 
 ### Listar produtos por código
